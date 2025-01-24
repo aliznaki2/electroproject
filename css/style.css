@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    height: 150px;
+    align-items: center;
+}
+header div input {
+    width:85%;
+    height: 35px;
+    outline: none;
+    border-radius: 25px;
+}
+header div input {
+    width: 85%;
+    height: 35px;
+    outline: none;
+    border-radius: 25px;
+}
+nav {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+nav div,h3{
+    width: calc(90%/5);
+}
+nav div h3{
+    width: 100%;
+
+}
+nav ol {
+    display: none;
+}
+
+nav div:hover ol {
+    background-color: #eeb;
+    display: inline-flex;
+    height: 400px;
+    width: 800px;
+    overflow-y: scroll;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+ nav div ol ul {
+    width: 30%;
+    list-style: none;
+ }
+ .menu {
+     height: 100%;
+     padding-top: 18.720px;
+     margin: 0;
+ }
+
+div ol h3 {
+    height: 22px;
+    margin: 19px 0px;
+}
+div ol h3:hover{
+    height: 22px;
+    margin: 19px 0px;
+    padding: 0px;
+}
+div:hover .menu{
+    color: yellow;
+    height: 100%;
+    padding-top: 18.720px;
+    margin: 0;
+    border-radius: 7px 7px 0 0;
+}
+nav div ol ul li a:hover{
+    font-weight: bolder;
+}
+article{
+    background-color: rgba(253, 237, 15, 0.384);
+   
+}
+section article img{
+        background-color: white;
+            width: 102%;
+            height: 100%;
+}
+footer{
+    margin-top: 40px;
+    padding: 40px;
+    background-color: black;
+    height: 400px;
+}
+  footer p .span01 {
+      text-transform: uppercase;
+      color: white;
+      padding-left: 10px;
+
+  }
+  footer p .span02 {
+      text-transform: capitalize;
+      color: #716e6e;
+      padding-top: 10px;
+      padding-left: 40px;
+
+  }

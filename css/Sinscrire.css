@@ -1,0 +1,110 @@
+@keyframes body {
+    from {background-image: url(image/image\ back1.jpg)}
+    to  {background-image: url(image/image\ back2.jpg)}
+}
+body {
+    
+    animation-name: body;
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation-duration: 120s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+i{
+    margin: 40px;
+    width: 25px;
+    height: 25px;
+    color: red;
+}
+div {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: rgb(221, 221, 221);
+    width: 40%;
+    height: 60%;
+    border-radius: 20px;
+}
+div p{
+    display: inline-block;
+    margin: 10px 10px;
+}
+div #p2{
+    display: inline-block;
+    margin: 10px 20px;
+}
+#user{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    left: 22%;
+    top: 44%;
+
+}
+#password{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    left: 22%;
+    top: 55%;
+
+}
+
+#submit{
+    display: inline-block;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    background-color: #f30723;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    left: 36%;
+    top: 73%;
+}
+.Sinscrire{
+    display: inline-block;
+    text-align: center;
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+#first-name{
+    display: inline-block;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    left: 22%;
+    top: 33%;
+}
+#last-name{
+    display: inline-block;
+    background-color: #ddd;
+    text-align: center;
+    border-radius: 20px;
+    width: 130px;
+    height: 35px;
+    position: absolute;
+    left: 53%;
+    top: 33%;
+}

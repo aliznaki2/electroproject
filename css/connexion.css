@@ -1,0 +1,63 @@
+@keyframes body {
+    from {background-image: url(image/image\ back1.jpg)}
+    to  {background-image: url(image/image\ back2.jpg)}
+}
+body {
+    
+    animation-name: body;
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation-duration: 120s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+}
+#font{
+    margin: 40px;
+    color: red;
+}
+div {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: rgb(221, 221, 221);
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+}
+div p{
+    display: inline-block;
+    margin: 10px 10px;
+}
+div #p2{
+    display: inline-block;
+    margin: 10px 20px;
+}
+#connecter{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+
+}
+#Sinscrire{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 35%;
+    top: 55%;
+
+}
+
